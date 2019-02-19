@@ -20,7 +20,7 @@ public class Main {
 	
 	
 	public static int loudCount(String str){
-		final char[] loud = "аеєиіїоуюя".toCharArray();
+		final char[] loud = "Р°РµС”РёС–С—РѕСѓСЋСЏ".toCharArray();
 		str = str.toLowerCase();
 		int count = 0;
 		for(int i=0;i<loud.length;i++){
@@ -33,7 +33,7 @@ public class Main {
 	
 	
 	public static void main(String[] args){
-		StringBuffer sb = new StringBuffer("Відсортувати слова заданого тексту за зростанням кількості голосних літер");
+		StringBuffer sb = new StringBuffer("Р’С–РґСЃРѕСЂС‚СѓРІР°С‚Рё СЃР»РѕРІР° Р·Р°РґР°РЅРѕРіРѕ С‚РµРєСЃС‚Сѓ Р·Р° Р·СЂРѕСЃС‚Р°РЅРЅСЏРј РєС–Р»СЊРєРѕСЃС‚С– РіРѕР»РѕСЃРЅРёС… Р»С–С‚РµСЂ");
 		
 		String[] arr = new String(sb).split(" ");
 		
