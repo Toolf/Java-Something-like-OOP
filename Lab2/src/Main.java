@@ -18,7 +18,7 @@ public class Main {
 			return;
 		}
 		
-		//change matrix a*B a-const
+		//matrix a*B a-const
 		char c[][] = new char[b.length][b[0].length];
 		double partialSums[] = new double[b.length];
 		for(int i=0;i<b.length;i++){
